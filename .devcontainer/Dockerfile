@@ -3,7 +3,7 @@
 FROM ghcr.io/void-linux/void-linux:20230204rc01-thin-x86_64
 RUN <<EOF
 xbps-install -Syu
-xbps-install -u xbps
+xbps-install -yu xbps
 xbps-install -Syu
 xbps-install -Syu bash less ncurses-base shadow curl python3 tar gzip findutils  util-linux   gleam erlang nodejs git
 EOF
