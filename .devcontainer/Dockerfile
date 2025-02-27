@@ -6,8 +6,6 @@ xbps-install -Syu
 xbps-install -u xbps
 xbps-install -Syu
 xbps-install -Syu bash less ncurses-base shadow curl python3 tar gzip findutils  util-linux   gleam erlang nodejs git
-chsh -s /bin/bash root
-rm var/cache/xbps/*
 EOF
 
 ENV HOME=/root
